@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040FA65223FEEF2100F38858 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FA65123FEEF2100F38858 /* FourthViewController.swift */; };
+		040FA654240094B000F38858 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FA653240094B000F38858 /* FifthViewController.swift */; };
+		0445FB00242D6B770052EB3F /* iconSet in Resources */ = {isa = PBXBuildFile; fileRef = 0445FAFF242D6B770052EB3F /* iconSet */; };
+		04AD23C7240DF3EF00440319 /* myAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD23C6240DF3EE00440319 /* myAnnotationView.swift */; };
+		04AD23C9240DF69900440319 /* myAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD23C8240DF69900440319 /* myAnnotation.swift */; };
+		04AD23CB240E938A00440319 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD23CA240E938A00440319 /* RegisterViewController.swift */; };
+		04AD23CF240E999E00440319 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD23CE240E999E00440319 /* MainTabBarController.swift */; };
+		04AD23D1240E9AC000440319 /* StartRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD23D0240E9AC000440319 /* StartRegistrationViewController.swift */; };
+		04D41D7723F34FBC00B02C6A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D41D7623F34FBC00B02C6A /* LoginViewController.swift */; };
+		04D41D7D23F5F62200B02C6A /* guardianAngelLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D41D7C23F5F62200B02C6A /* guardianAngelLogo.png */; };
+		04D41D7F23FE16E000B02C6A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D41D7E23FE16E000B02C6A /* logo.png */; };
+		0AD84F2423EC525D00FE7B54 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD84F2323EC525D00FE7B54 /* MessageUI.framework */; };
 		0AFDE7CC23EB51C2005627E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDE7CB23EB51C2005627E6 /* AppDelegate.swift */; };
 		0AFDE7CE23EB51C2005627E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDE7CD23EB51C2005627E6 /* SceneDelegate.swift */; };
 		0AFDE7D023EB51C2005627E6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDE7CF23EB51C2005627E6 /* FirstViewController.swift */; };
@@ -18,7 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0AFDE7C823EB51C2005627E6 /* Proj1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proj1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FA65123FEEF2100F38858 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		040FA653240094B000F38858 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		0445FAFF242D6B770052EB3F /* iconSet */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iconSet; path = ../../../Documents/iconSet; sourceTree = "<group>"; };
+		04AD23C6240DF3EE00440319 /* myAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotationView.swift; sourceTree = "<group>"; };
+		04AD23C8240DF69900440319 /* myAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAnnotation.swift; sourceTree = "<group>"; };
+		04AD23CA240E938A00440319 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04AD23CE240E999E00440319 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = ../MainTabBarController.swift; sourceTree = "<group>"; };
+		04AD23D0240E9AC000440319 /* StartRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartRegistrationViewController.swift; sourceTree = "<group>"; };
+		04D41D7623F34FBC00B02C6A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04D41D7C23F5F62200B02C6A /* guardianAngelLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = guardianAngelLogo.png; path = ../../guardianAngelLogo.png; sourceTree = "<group>"; };
+		04D41D7E23FE16E000B02C6A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
+		0AD84F2323EC525D00FE7B54 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0AFDE7C823EB51C2005627E6 /* USNAngels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USNAngels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFDE7CB23EB51C2005627E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AFDE7CD23EB51C2005627E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0AFDE7CF23EB51C2005627E6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -35,24 +59,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD84F2423EC525D00FE7B54 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD84F2223EC525C00FE7B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AD84F2323EC525D00FE7B54 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0AFDE7BF23EB51C2005627E6 = {
 			isa = PBXGroup;
 			children = (
 				0AFDE7CA23EB51C2005627E6 /* Proj1 */,
 				0AFDE7C923EB51C2005627E6 /* Products */,
+				0AD84F2223EC525C00FE7B54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0AFDE7C923EB51C2005627E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AFDE7C823EB51C2005627E6 /* Proj1.app */,
+				0AFDE7C823EB51C2005627E6 /* USNAngels.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,12 +94,23 @@
 		0AFDE7CA23EB51C2005627E6 /* Proj1 */ = {
 			isa = PBXGroup;
 			children = (
+				04AD23CE240E999E00440319 /* MainTabBarController.swift */,
 				0AFDE7CB23EB51C2005627E6 /* AppDelegate.swift */,
 				0AFDE7CD23EB51C2005627E6 /* SceneDelegate.swift */,
 				0AFDE7CF23EB51C2005627E6 /* FirstViewController.swift */,
+				04AD23C6240DF3EE00440319 /* myAnnotationView.swift */,
+				04AD23C8240DF69900440319 /* myAnnotation.swift */,
 				0AFDE7D123EB51C2005627E6 /* SecondViewController.swift */,
+				040FA65123FEEF2100F38858 /* FourthViewController.swift */,
 				0AFDE7D323EB51C2005627E6 /* Main.storyboard */,
+				04AD23D0240E9AC000440319 /* StartRegistrationViewController.swift */,
+				04AD23CA240E938A00440319 /* RegisterViewController.swift */,
+				040FA653240094B000F38858 /* FifthViewController.swift */,
+				04D41D7E23FE16E000B02C6A /* logo.png */,
+				04D41D7C23F5F62200B02C6A /* guardianAngelLogo.png */,
+				04D41D7623F34FBC00B02C6A /* LoginViewController.swift */,
 				0AFDE7D923EB51C4005627E6 /* Assets.xcassets */,
+				0445FAFF242D6B770052EB3F /* iconSet */,
 				0AFDE7DB23EB51C4005627E6 /* LaunchScreen.storyboard */,
 				0AFDE7DE23EB51C4005627E6 /* Info.plist */,
 				0AFDE7D623EB51C2005627E6 /* Proj1.xcdatamodeld */,
@@ -90,7 +135,7 @@
 			);
 			name = Proj1;
 			productName = Proj1;
-			productReference = 0AFDE7C823EB51C2005627E6 /* Proj1.app */;
+			productReference = 0AFDE7C823EB51C2005627E6 /* USNAngels.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0AFDE7C323EB51C2005627E6 /* Build configuration list for PBXProject "Proj1" */;
+			buildConfigurationList = 0AFDE7C323EB51C2005627E6 /* Build configuration list for PBXProject "USNAngels" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0445FB00242D6B770052EB3F /* iconSet in Resources */,
 				0AFDE7DD23EB51C4005627E6 /* LaunchScreen.storyboard in Resources */,
+				04D41D7F23FE16E000B02C6A /* logo.png in Resources */,
 				0AFDE7DA23EB51C4005627E6 /* Assets.xcassets in Resources */,
 				0AFDE7D523EB51C2005627E6 /* Main.storyboard in Resources */,
+				04D41D7D23F5F62200B02C6A /* guardianAngelLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040FA654240094B000F38858 /* FifthViewController.swift in Sources */,
+				04AD23CB240E938A00440319 /* RegisterViewController.swift in Sources */,
+				04AD23CF240E999E00440319 /* MainTabBarController.swift in Sources */,
+				04AD23D1240E9AC000440319 /* StartRegistrationViewController.swift in Sources */,
+				04D41D7723F34FBC00B02C6A /* LoginViewController.swift in Sources */,
+				04AD23C9240DF69900440319 /* myAnnotation.swift in Sources */,
 				0AFDE7D223EB51C2005627E6 /* SecondViewController.swift in Sources */,
 				0AFDE7D023EB51C2005627E6 /* FirstViewController.swift in Sources */,
+				04AD23C7240DF3EF00440319 /* myAnnotationView.swift in Sources */,
 				0AFDE7D823EB51C2005627E6 /* Proj1.xcdatamodeld in Sources */,
+				040FA65223FEEF2100F38858 /* FourthViewController.swift in Sources */,
 				0AFDE7CC23EB51C2005627E6 /* AppDelegate.swift in Sources */,
 				0AFDE7CE23EB51C2005627E6 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,14 +348,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_TEAM = 5AT8BMU947;
 				INFOPLIST_FILE = Proj1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = usna.capstone.Proj1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = usna.capstone.Proj1Patrick;
+				PRODUCT_NAME = USNAngels;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,14 +370,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_TEAM = 5AT8BMU947;
 				INFOPLIST_FILE = Proj1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = usna.capstone.Proj1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = usna.capstone.Proj1Patrick;
+				PRODUCT_NAME = USNAngels;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,7 +391,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AFDE7C323EB51C2005627E6 /* Build configuration list for PBXProject "Proj1" */ = {
+		0AFDE7C323EB51C2005627E6 /* Build configuration list for PBXProject "USNAngels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AFDE7DF23EB51C4005627E6 /* Debug */,
